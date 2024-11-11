@@ -1,0 +1,23 @@
+.calorie-item {
+    background-color: rgba(251, 251, 251, 1);
+    width:258px;
+    height:124px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+    margin-bottom: 39px;
+}
+img{
+    margin: 10px;
+}
+.text :first-child{
+    font-weight:700;
+    font-size: 20px;
+   
+}
+.text :last-child{
+    font-weight:500;
+    font-size: 14px;
+    color: rgb(116, 121, 140, 1);
+}
