@@ -1,19 +1,20 @@
 # SportSee
 ## Dashboard d'Analyse Sportive
-Ce projet est une application de suivi et d'analyse d'activités sportives, conçue avec React.js et la bibliothèque Recharts pour les graphiques. Il permet aux utilisateurs de visualiser leurs données d'entraînement, telles que l'activité quotidienne, la durée moyenne des sessions, les performances, et les scores.
+Ce projet est une application de suivi et d'analyse d'activités sportives, conçue avec React.js et la bibliothèque Recharts pour les graphiques. 
+Il permet aux utilisateurs de visualiser leurs données d'entraînement, telles que l'activité quotidienne, la durée moyenne des sessions, les performances, et les scores.
 
 ### Fonctionnalités
-Activité quotidienne : Affichage des calories brûlées et du poids sous forme de graphique à barres.
-Durée moyenne des sessions : Représentation des sessions hebdomadaires sous forme de courbe.
-Performances : Diagramme en toile d'araignée pour visualiser les performances.
-Score personnel : Indicateur du score global de l'utilisateur.
-Suivi des calories et macronutriments : Affichage des données clés (calories, protéines, glucides, lipides).
+1. Activité quotidienne : Affichage des calories brûlées et du poids sous forme de graphique à barres.
+2. Durée moyenne des sessions : Représentation des sessions hebdomadaires sous forme de courbe.
+3. Performances : Diagramme en toile d'araignée pour visualiser les performances.
+4. Score personnel : Indicateur du score global de l'utilisateur.
+5. Suivi des calories et macronutriments : Affichage des données clés (calories, protéines, glucides, lipides).
 
 ### Technologies utilisées
-Frontend : React.js, Recharts
-Outil de build : Vite.js
-CSS : Mise en page responsive et personnalisée
-Backend (Mock API) : Données simulées pour les utilisateurs et leurs activités
+1. Frontend : React.js, Recharts
+2. Outil de build : Vite.js
+3. CSS : Mise en page responsive et personnalisée
+4. Backend (Mock API) : Données simulées pour les utilisateurs et leurs activités
 
 ### Installation et lancement du frontend :
 1. Prérequis
