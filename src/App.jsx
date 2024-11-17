@@ -39,6 +39,9 @@ function App() {
           <img src={iconbike} alt="icon velo" />
           <img src={iconmuscu} alt="icon musculation" />
         </div>
+        <div className='copyright'>
+          <p>Copiryght, SportSee 2020</p>
+        </div>
       </aside>
       <main>
         {(href === '/') ? <div className='links'>

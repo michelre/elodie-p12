@@ -24,7 +24,7 @@ const Activity = ({ data }) => {
                 <XAxis dataKey="day" />
                 <YAxis />
                 <Tooltip />
-                <Legend />
+               
                 <Bar dataKey="kilogram" fill="#282D30" name="Poids (kg)" barSize={7} radius={[3, 3, 0, 0]}/>
                 <Bar dataKey="calories"fill="#E60000"  name="Calories brûlées (kCal)" barSize={7} radius={[3, 3, 0, 0]}/> 
             </BarChart>
