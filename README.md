@@ -15,7 +15,7 @@ Outil de build : Vite.js
 CSS : Mise en page responsive et personnalisée
 Backend (Mock API) : Données simulées pour les utilisateurs et leurs activités
 
- Installation et exécution
+Installation et lancement du frontend :
 1. Prérequis
 Assurez-vous que Node.js et npm (ou yarn) sont installés sur votre machine.
 2. Installation des dépendances
@@ -27,7 +27,14 @@ Le projet sera accessible via http://localhost:5173
 Pour créer une version optimisée du projet :
 npm run build
 
+Installation et lancement du backend:
+1. Cloner le repo du back-end : git clone https://github.com/OpenClassrooms-Student-Center/P9-front-end-dashboard.git
+2. En se plaçant dans ce repo du back-end SportSee, installer ses dépendances :
+ npm install
+3. Lancer le back-end sur le port 3000 (port par défaut) :
+ npm start
 
+ 
 Données mockées
 Les données utilisateur sont simulées via un fichier JSON pour le développement.
 
