@@ -20,7 +20,7 @@ const kinds = {
           <PolarAngleAxis
           dataKey={({ kind }) => reversedKinds[kind - 1]}
         />
-          <Radar name="" dataKey="value" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6} />
+          <Radar name="" dataKey="value" stroke="#FFF" fill="#FF0101" fillOpacity={0.6} />
         </RadarChart>
       </ResponsiveContainer>
     );
