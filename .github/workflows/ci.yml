@@ -12,7 +12,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build App
-        run: npm run build
+        run: npm run build-prod
       - name: Archive build
         id: deployment
         uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
