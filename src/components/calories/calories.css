@@ -34,7 +34,7 @@
 @media screen and (max-width: 1024px) {
     .calories{
         flex-wrap: nowrap;
-        margin-top: 20px;
+        padding-top:10px;
     }
     .calorie-item {
     width:200px;
