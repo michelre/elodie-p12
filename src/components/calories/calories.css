@@ -31,14 +31,16 @@
     margin-top: 5px;
 }
 /* taille d'ecran tablette */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1140px) {
     .calories{
         flex-wrap: nowrap;
         padding-top:10px;
+        margin-top: 20px;
     }
     .calorie-item {
     width:200px;
     height:106px;
+    margin: 0;
     }
     .calorie-item img{
         margin: 24px 16px 24px 16px;
