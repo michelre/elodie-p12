@@ -18,3 +18,10 @@ jobs:
         with:
           name: build
           path: dist
+  deploy:
+    needs: build
+    steps: 
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        artifact_name: build
