@@ -45,10 +45,7 @@ function App() {
           </div>
         </aside>
         <main>
-          {(href === '/') ? <div className='links'>
-            <Link to="/users/12">Karl</Link>
-            <Link to="/users/18">Cecilia</Link>
-          </div> : <Outlet />}                
+          <Outlet/>
         </main>
       </div>      
     </>
